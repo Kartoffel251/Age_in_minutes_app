@@ -39,7 +39,7 @@
         android:textStyle="bold"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnDatePicker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Select date"
@@ -47,7 +47,7 @@
         android:textColor="@color/white"
         android:textSize="20sp"/>
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/tvSelectedDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
@@ -58,11 +58,11 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Selected date"
+        android:text="Your date of birth"
         android:textColor="#A5C9CA"
         android:textSize="20sp" />
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/ageInMinutes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="14dp"
@@ -70,10 +70,10 @@
         android:textColor="@color/dateColor"
         android:textSize="35sp" />
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="In minutes until now"
+        android:text="Minutes lived until now"
         android:textColor="#A5C9CA"
         android:textSize="20sp" />
 
